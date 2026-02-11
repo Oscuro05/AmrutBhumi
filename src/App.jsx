@@ -10,6 +10,7 @@ import './App.css'
 import logoImg from './assets/logo.jpg'
 import templateImg from './assets/Template.jpg'
 import drThakre from './assets/Pappa.jpg'
+import circle from './assets/circle.jpeg'
 
 function App() {
   const handleWhatsAppClick = () => {
@@ -51,9 +52,14 @@ function App() {
       <section id="home" className="hero-gradient text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="relative">
+              <img 
+                src={circle} 
+                className="rounded-full shadow-2xl w-full h-auto"/>
+            </div>
             <div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-                Pure, Safe, Organic Vegetables Delivered to Your Nagpur Home
+                Pure Organic Vegetables, Grains, Millets, Paneer, Ghee & Gavrani Eggs - Delivered to Your Doorstep.             
               </h1>
               <p className="text-xl mb-8 text-green-100">
                 Join the Amrutbhumi family and choose health, delivered weekly.
